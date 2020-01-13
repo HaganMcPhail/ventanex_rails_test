@@ -10,8 +10,9 @@ rails s
 
 # Test
 1. Commit code to your repository at start
-2. Make at least one of the buttons on the index page work(show, delete, create)
-3. Use javascript/jQuery to connect the hide button. The button should replace the all the characters except the last 4, with *.
+2. Make the create button work and shows a form that allows a user to enter nickname, account number, and account type
+3. Implement Account Class to read xml file(assets/xml/loan.xml) and find the loan number and borrower name in the xml to be displayed in pay_accounts/index.html.erb(can be placed anyhwhere in the index file)
+4. Use javascript/jQuery to connect the hide button. The button should replace the all the characters except the last 4, with *.
 Example: 4111111111111111 -> ************1111
 
 # Extra Credit(but not required)

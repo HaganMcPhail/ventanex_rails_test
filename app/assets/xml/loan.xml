@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+    xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <SOAP-ENV:Body>
+        <fnf:FlexAccountViewProviderReadResponse xmlns:fnf="http://www.fnfis.com/services/Services-Common/FlexAccountView/2.03">
+            <ResponseContext>
+                <MessageId>d04147f9-82c7-4200-b38f-4cbce254909c</MessageId>
+                <CorrelationId>176481-10124785789</CorrelationId>
+                <SoftwareVersionNumber>6.3.6.198</SoftwareVersionNumber>
+            </ResponseContext>
+            <FlexAccountViewProviderReadRs>
+                <ResponseHeader>
+                    <Status>
+                        <StatusCode>Success</StatusCode>
+                        <ResultCode>0</ResultCode>
+                    </Status>
+                </ResponseHeader>
+                <ResponseBody>
+                    <ClientId>623</ClientId>
+                    <LoanNumber>111111111</LoanNumber>
+                    <ARMAnticipatedRemainingTerm xsi:nil="true"></ARMAnticipatedRemainingTerm>
+                    <ARMPlanId xsi:nil="true"></ARMPlanId>
+                    <AccruedLateChargeBalance >0.00</AccruedLateChargeBalance>
+                    <AcquisitionDate >2008-11-12</AcquisitionDate>
+                    <AnnualInterestRate >4.50000</AnnualInterestRate>
+                    <BadCheckStop Description="No bad check stop">0</BadCheckStop>
+                    <BankruptcyPostPetitionPaymentAmount >0.00</BankruptcyPostPetitionPaymentAmount>
+                    <BankruptcyStayLiftIndicatorCode xsi:nil="true"></BankruptcyStayLiftIndicatorCode>
+                    <BorrowerEmailAddress >test@test.com</BorrowerEmailAddress>
+                    <BorrowerEmployeeCode >0</BorrowerEmployeeCode>
+                    <BorrowerFullNameUnformated >John Doe</BorrowerFullNameUnformated>
+                    <BorrowerMailingAddressLine1 xsi:nil="true">123 Test LN</BorrowerMailingAddressLine1>
+                    <BorrowerMailingAddressLine2 xsi:nil="true"></BorrowerMailingAddressLine2>
+                    <BorrowerMailingCarrierRoute xsi:nil="true"></BorrowerMailingCarrierRoute>
+                    <BorrowerMailingCityName >SUFFOLK</BorrowerMailingCityName>
+                    <BorrowerMailingFullStreet >123 Tester St</BorrowerMailingFullStreet>
+                    <BorrowerMailingPostalCode >11111</BorrowerMailingPostalCode>
+                    <BorrowerMailingStateAbbreviation >VA</BorrowerMailingStateAbbreviation>
+                    <BorrowerName >Doe,John</BorrowerName>
+                    <BorrowerTaxIdentificationNumber >***-**-1111</BorrowerTaxIdentificationNumber>
+                    <CashieringStop xsi:nil="true"></CashieringStop>
+                    <ClosingDate >2008-11-12</ClosingDate>
+                    <CoBorrowerEmailAddress xsi:nil="true"></CoBorrowerEmailAddress>
+                    <CoBorrowerFullName>Doe, Jane</CoBorrowerFullName>
+                    <CoBorrowerFullNameUnformated>Jane Doe</CoBorrowerFullNameUnformated>
+                    <CoBorrowerTaxIdentificationNumber >***-**-2222</CoBorrowerTaxIdentificationNumber>
+                    <CorporateAdvanceBorrowerRecoverableBalance >0.00</CorporateAdvanceBorrowerRecoverableBalance>
+                    <CurrentDraftTotalDraftAmount >0.00</CurrentDraftTotalDraftAmount>
+                    <CurrentLoanToValuePercent >91.9</CurrentLoanToValuePercent>
+                    <CurrentPrincipalBalance >478224.30</CurrentPrincipalBalance>
+                    <DefaultDelinquentPaymentCount >2</DefaultDelinquentPaymentCount>
+                    <DefaultOtherFeesDueAmount >0.00</DefaultOtherFeesDueAmount>
+                    <DraftingIndicatorFlag xsi:nil="true"></DraftingIndicatorFlag>
+                    <ELOCTotalMinimumPaymentDue >0.00</ELOCTotalMinimumPaymentDue>
+                    <EscrowBalance >0.00</EscrowBalance>
+                    <FirstPaymentDueDate >2009-01-01</FirstPaymentDueDate>
+                    <ForeclosureStopCode Description="No foreclosure stop">0</ForeclosureStopCode>
+                    <ForeignAddressFlag >false</ForeignAddressFlag>
+                    <HELOCCurrentBillMinimumPaymentDue >0.00</HELOCCurrentBillMinimumPaymentDue>
+                    <HELOCFixedVariable xsi:nil="true"></HELOCFixedVariable>
+                    <HELOCStatusCode xsi:nil="true"></HELOCStatusCode>
+                    <HELOCUnpaidPriorBilledAmount >0.00</HELOCUnpaidPriorBilledAmount>
+                    <InterestCalculationOptionCode xsi:nil="true"></InterestCalculationOptionCode>
+                    <InterestDuefromClosingAmount >0.00</InterestDuefromClosingAmount>
+                    <InvestorID Description="VIRGINIA HOUSING DEVELOPM">D06</InvestorID>
+                    <LastAppraisalDate xsi:nil="true"></LastAppraisalDate>
+                    <LastMonetaryTransactionDate >2013-08-22</LastMonetaryTransactionDate>
+                    <LastPaymentReceivedDate >2017-09-15</LastPaymentReceivedDate>
+                    <LateChargeGraceDaysPeriod>15</LateChargeGraceDaysPeriod>
+                    <LienPriority >FirstMortgage</LienPriority>
+                    <LoanSuspenseBalance >55.00</LoanSuspenseBalance>
+                    <LoanType >FHAResidential</LoanType>
+                    <MonetaryTransStopCode Description="No Process Stop">12</MonetaryTransStopCode>
+                    <MortgageInsuranceMonthlyPaymentAmount >94.66</MortgageInsuranceMonthlyPaymentAmount>
+                    <MostRecentAsIsAppraisalAmount >0.00</MostRecentAsIsAppraisalAmount>
+                    <NSFFeeUnpaidBalance >0.00</NSFFeeUnpaidBalance>
+                    <NextPaymentChangeAmount >2639.32</NextPaymentChangeAmount>
+                    <NextPaymentChangeEffectiveDate >2019-09</NextPaymentChangeEffectiveDate>
+                    <NextPaymentDueDate >2019-11-19</NextPaymentDueDate>
+                    <NumberOfPaymentsDueOccur1 >1</NumberOfPaymentsDueOccur1>
+                    <NumberOfPaymentsDueOccur10 >0</NumberOfPaymentsDueOccur10>
+                    <NumberOfPaymentsDueOccur11 >0</NumberOfPaymentsDueOccur11>
+                    <NumberOfPaymentsDueOccur12 >0</NumberOfPaymentsDueOccur12>
+                    <NumberOfPaymentsDueOccur2 >0</NumberOfPaymentsDueOccur2>
+                    <NumberOfPaymentsDueOccur3 >0</NumberOfPaymentsDueOccur3>
+                    <NumberOfPaymentsDueOccur4 >0</NumberOfPaymentsDueOccur4>
+                    <NumberOfPaymentsDueOccur5 >0</NumberOfPaymentsDueOccur5>
+                    <NumberOfPaymentsDueOccur6 >0</NumberOfPaymentsDueOccur6>
+                    <NumberOfPaymentsDueOccur7 >0</NumberOfPaymentsDueOccur7>
+                    <NumberOfPaymentsDueOccur8 >0</NumberOfPaymentsDueOccur8>
+                    <NumberOfPaymentsDueOccur9 >0</NumberOfPaymentsDueOccur9>
+                    <OriginalAmortTerm >360</OriginalAmortTerm>
+                    <OriginalMortgageAmount >520900.00</OriginalMortgageAmount>
+                    <PIFStopCode Description="No paid in full stop">0</PIFStopCode>
+                    <PINextChangeEffectiveDate xsi:nil="true"></PINextChangeEffectiveDate>
+                    <PLSClientIDDescription xsi:nil="true"></PLSClientIDDescription>
+                    <PaymentBalance >2639.32</PaymentBalance>
+                    <PendingTotalPaymentAmount >2639.32</PendingTotalPaymentAmount>
+                    <PendingTotalPaymentAmountChangeDate >2014-09</PendingTotalPaymentAmountChangeDate>
+                    <PreviouslyPosted >0.00</PreviouslyPosted>
+                    <PrimaryTelecomNumber >(757) 639-7852</PrimaryTelecomNumber>
+                    <ProductLineCode Description="">STD</ProductLineCode>
+                    <PromiseAmount >2639.32</PromiseAmount>
+                    <PromiseDetails>
+                        <PromiseDetail>
+                            <Number>01</Number>
+                            <DueDate>2013-11-01</DueDate>
+                            <Amount>2639.32</Amount>
+                            <DueDateChanged>2013-10-16</DueDateChanged>
+                            <OriginalPaymentDate>2013-10-23</OriginalPaymentDate>
+                            <OriginalPaymentAmount>2639.32</OriginalPaymentAmount>
+                            <ChangeCode>A</ChangeCode>
+                        </PromiseDetail>
+                    </PromiseDetails>
+                    <PropertyAddressLine1 >4047 DEMOS AVE</PropertyAddressLine1>
+                    <PropertyCityID >LA CRUCES</PropertyCityID>
+                    <PropertyHouseNumber >4047</PropertyHouseNumber>
+                    <PropertyPostalCode >88011</PropertyPostalCode>
+                    <PropertyStateAbbreviation >NM</PropertyStateAbbreviation>
+                    <PropertyStreetDirectionPrefix xsi:nil="true"></PropertyStreetDirectionPrefix>
+                    <PropertyStreetName >DEMOS AVE</PropertyStreetName>
+                    <RegularPaymentAmountOccur1 >2639.32</RegularPaymentAmountOccur1>
+                    <RegularPaymentAmountOccur10 >0.00</RegularPaymentAmountOccur10>
+                    <RegularPaymentAmountOccur11 >0.00</RegularPaymentAmountOccur11>
+                    <RegularPaymentAmountOccur12 >0.00</RegularPaymentAmountOccur12>
+                    <RegularPaymentAmountOccur2 >0.00</RegularPaymentAmountOccur2>
+                    <RegularPaymentAmountOccur3 >0.00</RegularPaymentAmountOccur3>
+                    <RegularPaymentAmountOccur4 >0.00</RegularPaymentAmountOccur4>
+                    <RegularPaymentAmountOccur5 >0.00</RegularPaymentAmountOccur5>
+                    <RegularPaymentAmountOccur6 >0.00</RegularPaymentAmountOccur6>
+                    <RegularPaymentAmountOccur7 >0.00</RegularPaymentAmountOccur7>
+                    <RegularPaymentAmountOccur8 >0.00</RegularPaymentAmountOccur8>
+                    <RegularPaymentAmountOccur9 >0.00</RegularPaymentAmountOccur9>
+                    <RemainingTerm >304</RemainingTerm>
+                    <RepaymentPlanDownPayment >0.00</RepaymentPlanDownPayment>
+                    <RepaymentPlanIndicatorCode xsi:nil="true"></RepaymentPlanIndicatorCode>
+                    <RepaymentPlanMonthlyAmount >0.00</RepaymentPlanMonthlyAmount>
+                    <RepaymentPlanStartDate xsi:nil="true"></RepaymentPlanStartDate>
+                    <RepaymentPlanStatusCode >Active</RepaymentPlanStatusCode>
+                    <RepaymentPlanTerm >00</RepaymentPlanTerm>
+                    <ReportingClassificationCode >FF</ReportingClassificationCode>
+                    <ResponsibilitySegregationCode >1</ResponsibilitySegregationCode>
+                    <ServiceReleaseID xsi:nil="true"></ServiceReleaseID>
+                    <ServicingTransferDate xsi:nil="true"></ServicingTransferDate>
+                    <TotalDueBalance >2639.32</TotalDueBalance>
+                    <TotalEscrowPaymentAmount >618.15</TotalEscrowPaymentAmount>
+                    <TotalPayment >2639.32</TotalPayment>
+                    <YTDInterestPaidAmount >8427.15</YTDInterestPaidAmount>
+                </ResponseBody>
+            </FlexAccountViewProviderReadRs>
+        </fnf:FlexAccountViewProviderReadResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,16 +1,12 @@
 class PayAccountsController < ApplicationController
 
+  # TODO: Add lookup to Account class
+
   def index
     @pay_accounts = PayAccount.all
   end
 
-  def show
-  end
-
   def create
-  end
-
-  def destroy
   end
 
 end
