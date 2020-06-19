@@ -14,12 +14,33 @@
               <th>Account Type</th>
               <th>Account Number</th>
               <th>
-                <button type="button" class="btn btn-success">Create</button>
+                <button type="button" class="btn btn-success">+</button>
               </th>
             </tr>
           </thead>
           <tbody>
-            <% @pay_accounts.each do |pay_account| %>
+            <tr>
+              <%= form_for @pay_account, :remote => true do |f| %>
+                <td><%= f.text_field :nickname %></td>
+                <td>
+                  <%= f.label "Bank Account" do %>
+                    <%= f.radio_button :account_type, 1 %>
+                    Bank Account
+                  <% end %>
+                  </br>
+                  <%= f.label "Debit Card" do %>
+                    <%= f.radio_button :account_type, 2 %>
+                    Debit Card
+                  <% end %>
+                </td>
+                <td><%= f.text_field :account_number %></td>
+                <td><%= f.submit "Create", class: "btn btn-success" %></td>
+                <% if flash[:error].present? %>
+                  <p id="error"><%= flash[:error] %></p>
+                <% end %>
+              <% end %>
+            </tr>
+            <% @pay_accounts&.each do |pay_account| %>
               <tr>
                 <td><%= pay_account.nickname %></td>
                 <td><%= pay_account.account_type.humanize %></td>
