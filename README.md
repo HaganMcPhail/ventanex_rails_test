@@ -5,6 +5,7 @@ bundle install
 rake db:create
 rake db:migrate
 rake db:seed_fu
+may have to run `mysql.server start` in the command line
 rails s
 ```
 
