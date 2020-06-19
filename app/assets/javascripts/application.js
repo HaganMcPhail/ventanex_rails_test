@@ -17,3 +17,18 @@
 //= require popper
 //= require bootstrap-sprockets
 //= require_tree .
+//= require util
+//
+$(document).ready(function() {
+  $('.add-new').on('mousedown touch touchstart', function(e){
+    $('.create').fadeIn();
+  });
+
+  $('button.account-no').on('mousedown touch touchstart', function(e){
+    var element = $(this).parent().find('span.account-number');
+    var text = element.text();
+    element.text("*********" + text.slice(text.length - 4));
+  });
+
+});
+

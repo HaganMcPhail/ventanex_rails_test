@@ -1,1 +1,22 @@
 @import "bootstrap";
+
+.acct-no {
+  color: #FBB917;
+}
+
+button.show {
+  display: none;
+}
+
+table.main {
+  tr {
+
+    &.create {
+      display: none;
+    }
+
+    td {
+      vertical-align: middle;
+    }
+  }
+}

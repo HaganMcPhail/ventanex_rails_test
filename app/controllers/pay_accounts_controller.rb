@@ -1,7 +1,6 @@
 class PayAccountsController < ApplicationController
   before_action :convert_radio, only: ["create"]
-
-  # TODO: Add lookup to Account class
+  before_action :get_account_number, only: ["index"]
 
   def index
     @pay_accounts = PayAccount.all
@@ -14,7 +13,6 @@ class PayAccountsController < ApplicationController
     if @pay_account.save
       redirect_to root_path
     else
-      ap @pay_account.errors.full_messages
       redirect_to root_path, flash: { error: @pay_account.errors.full_messages }
     end
   end
@@ -27,5 +25,9 @@ class PayAccountsController < ApplicationController
 
   def convert_radio
     params[:pay_account][:account_type] = params[:pay_account][:account_type].to_i
+  end
+
+  def get_account_number
+    @account_number = Account.account_number
   end
 end
