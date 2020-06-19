@@ -7,8 +7,8 @@ common: &common
   timeout: 900
   socket: /tmp/mysql.sock
   port: 3306
-  username: <%= ENV['DATABASE_USERNAME'] %>
-  password: <%= ENV['DATABASE_PASSWORD'] %>
+  username: root
+  password: 
 development:
   <<: *common
   adapter: mysql2
